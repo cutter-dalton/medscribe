@@ -1,4 +1,4 @@
-# Med-speech-rec
+# Medscribe
 
 This repository contains a simple script for transcribing audio files (e.g. `.m4a`) into text
 using an open source speech recognition model.
@@ -35,3 +35,4 @@ python speech-to-text.py meeting.m4a
 
 You can change the model size by editing the `model_size` parameter in
 `speech-to-text.py` (options: `tiny`, `base`, `small`, `medium`, `large`).
+
