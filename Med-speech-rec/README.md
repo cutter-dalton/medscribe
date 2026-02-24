@@ -19,14 +19,17 @@ Whisper will download the selected model weights when you run the script for the
 # Usage
 
 ## Using default paths
+```
 python speech-to-text.py
-
+```
 ## Using custom directories
+```
 python speech-to-text.py C:\path\to\input C:\path\to\output
-
+```
 ## With specific model size
+```powershell
 python speech-to-text.py C:\path\to\input C:\path\to\output large
-
+```
 ## Example
 
 ```powershell
@@ -36,6 +39,7 @@ python speech-to-text.py meeting.m4a
 
 You can change the model size by editing the `model_size` parameter in
 `speech-to-text.py` (options: `tiny`, `base`, `small`, `medium`, `large`).
+
 
 
 
