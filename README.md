@@ -1,8 +1,9 @@
-# medscribe
-Medical Recording Transcriber 
+
+
 
 
 # Medscribe
+Medical Recording Transcriber 
 
 This repository contains a simple script for transcribing audio files (e.g. `.m4a`) into text
 using an open source speech recognition model.
