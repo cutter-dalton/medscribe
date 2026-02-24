@@ -18,13 +18,14 @@ Whisper will download the selected model weights when you run the script for the
 
 ## Usage
 
-```powershell
-python speech-to-text.py input_audio.m4a [output.txt]
-```
+# Using default paths
+python speech-to-text.py
 
-- `input_audio.m4a` – path to your audio file (Whisper supports many formats).
-- `output.txt` – optional path for the transcript; if omitted, a `.txt` file with the same base
-ame as the audio will be created in the same directory.
+# Using custom directories
+python speech-to-text.py C:\path\to\input C:\path\to\output
+
+# With specific model size
+python speech-to-text.py C:\path\to\input C:\path\to\output large
 
 ## Example
 
@@ -35,4 +36,5 @@ python speech-to-text.py meeting.m4a
 
 You can change the model size by editing the `model_size` parameter in
 `speech-to-text.py` (options: `tiny`, `base`, `small`, `medium`, `large`).
+
 
